@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    font-family:Arial, sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #ff8c00,
+        #ffffff
+    );
+}
+
+.container{
+
+    text-align:center;
+
+    background:rgba(255,255,255,0.7);
+
+    padding:40px;
+
+    border-radius:20px;
+}
+
+h1{
+
+    color:#ff6b00;
+
+    margin-bottom:10px;
+}
+
+p{
+
+    color:#444;
+}
